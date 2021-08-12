@@ -13,6 +13,11 @@ right.onclick = move_right
 document.addEventListener('keydown', key_event_listeners, false)
 
 
+function wala_lang() {
+    console.log("wala lang para lng sa github sample")
+}
+
+
 function key_event_listeners(event) {
     let name = event.key;
 
